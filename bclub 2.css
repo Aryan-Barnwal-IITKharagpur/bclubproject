@@ -1,0 +1,150 @@
+#icons
+{
+    height: 500px;
+    width: 65px;
+    position: fixed;
+    left: 0;
+    top: calc(50% - 250px);
+    background: #1c5da4;
+    border-radius: 0 60px 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 998;
+}
+#icons:hover
+{
+    background: #000;
+}
+#icons a
+{
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    font-size: 23px;
+    color: #e9e9eb;
+    display: grid;
+    place-items: center;
+    margin: 30px 0
+}
+#icons a:hover
+{
+    color: #1b66bb;
+}
+.space{
+    margin: 70px;
+}
+
+.circle{
+    border-radius: 25px;
+}
+
+.navbar
+{
+    height: 70px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #fdfefe;
+    display: grid;
+    place-items: center;
+    background-color: #e9e9e9;
+}
+.navbar ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.navbar ul li
+{
+    font-size: 20px;
+    margin: 0 17px;
+}
+.navbar ul li a
+{
+    font-size: 26px;
+    text-decoration: none;
+    color: #000;
+}
+.navbar ul li a:hover
+{
+    color: #165397;
+}
+/* login button */
+.navbar ul .login
+{
+    height: 50px;
+    width: 120px;
+    top: 20px;
+    right: 7%;
+    display: grid;
+    place-items: center;
+    background: #165397;
+    border-radius: 10px 20px;
+}
+.navbar ul .login a
+{
+    color: #e9e9eb;
+}
+.navbar ul .login:hover
+{
+    background: #000;
+}
+
+.input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 10px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+.input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+.name{
+    font-size: 17px;
+}
+.off{
+    font-size: 17px;
+    color: #EACE09;
+}
+
+.buy{
+    font-size: 18px;
+}
+.buy:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.buy:active {
+  background-color: #2196F3;
+  color: white;
+}
+.cart{
+    font-size: 18px;
+    color: black;
+}
+.cart:hover {
+  background-color: #2196F3;
+  color: lightblue;
+}
+
+.cart:active {
+  background-color: #2196F3;
+  color: white;
+}
